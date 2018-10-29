@@ -60,7 +60,6 @@ namespace OLED {
      //% icon="\uf1ec"
      //% shim=OLED::showStringNoNewLine
      export function showStringNoNewLine(text: string): void {
-        console.log("display: " + text);
         return;
     }
      /**
@@ -74,7 +73,6 @@ namespace OLED {
      //% icon="\uf1ec"
      //% shim=OLED::showStringWithNewLine
      export function showStringWithNewLine(text: string): void {
-        console.log("display: " + text);
         return;
     }
 
@@ -88,7 +86,6 @@ namespace OLED {
     //% async 
     //% shim=OLED::showNumberWithoutNewLine
     export function showNumber1(number: number): void {
-        console.log("display: " + number);
         return;
     }
     /**
@@ -100,8 +97,7 @@ namespace OLED {
     //% block="show|number %number" blockGap=8
     //% async 
     //% shim=OLED::showNumberWithNewLine
-    export function showNumber2(number: number): void {
-        console.log("display: " + number);
+export function showNumber2(number: number): void {
         return;
     }
     /**
